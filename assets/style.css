@@ -353,6 +353,7 @@ img {
     body {
       background-color: #e98074;
       width: 80%;
+      
     }
     .top {
         position: static;
@@ -362,7 +363,7 @@ img {
     .portfolio-content {
     /* Box-model */
     height: auto;
-    width: 125%;
+    width: 100%;
     padding: 20px;
     
     }
