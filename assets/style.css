@@ -303,10 +303,14 @@ img {
 @media only screen and (max-width: 640px) {
         body {
         background-color: #ffffff;
+        width: 80%;
         }
-    
+        .top {
+            width: 120%;
+        }
         .name {
             float: left;
+            text-align: left;
             width: 25%;
         }
         
@@ -320,7 +324,6 @@ img {
         /* Box-model */
         height: auto;
         width: 100%;
-
         }
         
         /* background color extend to automatically fit photos */
@@ -336,6 +339,10 @@ img {
             display: none;
         }
 
+        .footer {
+            width: 120%;
+        }
+
     }
 
 
@@ -345,16 +352,19 @@ img {
   @media only screen and (min-width: 641px) and (max-width: 768px) {
     body {
       background-color: #e98074;
+      width: 80%;
     }
     .top {
         position: static;
+        width: 130%;
     }
     .main,
     .portfolio-content {
     /* Box-model */
     height: auto;
-    width: 100%;
+    width: 125%;
     padding: 20px;
+    
     }
     
     /* background color extend to automatically fit photos */
@@ -368,7 +378,11 @@ img {
     .text-block-5,
     .text-block-6 {
     display: none;
-    }    
+    } 
+    
+    .footer {
+        width: 125%;
+    }
   }
   
   /* Desktop Styles */
